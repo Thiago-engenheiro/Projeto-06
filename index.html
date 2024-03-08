@@ -7,21 +7,25 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600;700&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="./SCSS/index.css">    
+
     <title>Calmaria</title>
 </head>
 
 <body>
     <main>
         <header>
-            <nav>
-                <img src="./assets/logo.png" alt="logo">
+            <nav class="cabecalho">
+                <img class="cabecalho__logo" src="./assets/logo.png" alt="logo">
                 <span class="linha"></span>
-                <ul>
-                    <li><a href="#nosso-espaco">Nosso espaço</a></li>
-                    <li><a href="#servico">Servicos</a></li>
-                    <li><a href="#contatos">Contato</a></li>
+                <ul class="cabecalho__menu">
+                    <li><a class="cabecalho__menu__texto" href="#nosso-espaco">Nosso espaço</a></li>
+                    <li><a class="cabecalho__menu__texto" href="#servico">Servicos</a></li>
+                    <li><a class="cabecalho__menu__texto" href="#contatos">Contato</a></li>
                 </ul>
             </nav>
             <section id="home">
@@ -30,8 +34,9 @@
                     <h1>Boas-vindas ao seu refúgio de <span> paz e bem-estar</span></h1>
                     <button class="btn-main">Quero relaxar</button>
                 </div>
+                
                 <div class="img-home">
-                    <img src="/assets/home-image.png" alt="Mulher de bruços recebendo massagem nas costas">
+                    <img class="imagem" src="./assets/home-image.png" alt="Mulher de bruços recebendo massagem nas costas">
                 </div>
 
             </section>
@@ -39,7 +44,7 @@
         <section id="nosso-espaco">
             <div class="detalhes">
                 <div class="imgs-espaco">
-                    <img class="img-espaco" src="/assets/espaco-1.png"
+                    <img class="img-espaco" src="./assets/espaco-1.png"
                         alt="Espaço iluminado pelo sol com design futurista composto por piscina e plantas">
                 </div>
                 <div class="espaco-textos">
@@ -52,9 +57,9 @@
             </div>
             <div class="detalhes">
                 <div class="imgs-espaco">
-                    <img class="img-espaco" src="/assets/espaco-2.png"
+                    <img class="img-espaco" src="./assets/espaco-2.png"
                         alt="Mulher sentada numa banheira com uma taça na mão">
-                    <img class="img-espaco" src="/assets/espaco-3.png" alt="Espaço com uma piscina e um sofá ao fundo">
+                    <img class="img-espaco" src="./assets/espaco-3.png" alt="Espaço com uma piscina e um sofá ao fundo">
                 </div>
                 <div class="espaco-textos">
                     <h2 class="titulo">Elevando seu bem-estar a um novo patamar</h2>
