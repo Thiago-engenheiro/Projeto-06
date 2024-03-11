@@ -16,7 +16,7 @@ header .cabecalho .linha {
 .cabecalho__menu {
   display: inline-flex;
   list-style-type: none;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .cabecalho__menu__texto {
@@ -34,7 +34,7 @@ main {
 #home {
   display: flex;
   align-items: center;
-  max-width: 1040px;
+  max-width: 1200px;
   width: 80%;
   margin: 50px auto;
   justify-content: space-between;
@@ -65,6 +65,86 @@ span {
 .imagem {
   width: 450px;
   height: 550px;
+}
+
+#nosso-espaco {
+  margin: 50px auto;
+  max-width: 1200px;
+  width: 80%;
+}
+
+#nosso-espaco {
+  margin: 50px auto;
+  max-width: 1200px;
+  width: 80%;
+}
+#nosso-espaco .detalhes {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3em;
+  padding: 2.5em 0em;
+  width: 100%;
+}
+#nosso-espaco .detalhes .espaco-textos, #nosso-espaco .detalhes .imgs-espaco {
+  max-width: 650px;
+}
+#nosso-espaco .detalhes .espaco-textos .titulo, #nosso-espaco .detalhes .imgs-espaco .titulo {
+  color: #4e75ff;
+  font-weight: 400;
+  font-family: "Krona One", sans-serif;
+  font-size: 1.93em;
+}
+#nosso-espaco .detalhes .espaco-textos .infos, #nosso-espaco .detalhes .imgs-espaco .infos {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375em;
+}
+#nosso-espaco .detalhes .espaco-textos .separador, #nosso-espaco .detalhes .imgs-espaco .separador {
+  width: 100%;
+}
+#nosso-espaco .detalhes .imgs-espaco {
+  display: inline-flex;
+  gap: 2em;
+}
+#nosso-espaco .detalhes:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+#servico {
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+}
+
+.cards {
+  display: inline-flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2.5em 20em;
+}
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+  gap: 0.5em;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+  padding: 2em;
+  height: 550px;
+}
+.cards .card .img__card {
+  align-self: center;
+}
+.cards .card .card-titulo {
+  font-weight: 400;
+  font-family: "Krona One", sans-serif;
+  font-size: 1.625em;
+  text-align: center;
+}
+.cards .card .card-texto {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375em;
+  text-align: center;
 }
 
 body {

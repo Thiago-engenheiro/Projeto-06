@@ -16,7 +16,7 @@ header .cabecalho .linha {
 .cabecalho__menu {
   display: inline-flex;
   list-style-type: none;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .cabecalho__menu__texto {
